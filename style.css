@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.hero {
+    background-color: rosybrown;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benvenuto {
+    font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+ul {
+    font-style: none;
+}
+
+li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#menu {
+    display: none;
+}
+
+footer {
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoScuola {
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imgLogo {
+    height: 80%;
+}
+
+.info > a {
+    text-decoration: none;
+    background-color: beige;
+    color: cyan;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
