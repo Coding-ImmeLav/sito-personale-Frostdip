@@ -65,3 +65,50 @@ footer {
     padding: 10px 8px;
     border-radius: 10px;
 }
+
+footer > div {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.inizio {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenitore {
+    width: 40%;
+    background-color: antiquewhite;
+    height: 35%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore:hover {
+    background-color: brown;
+    transition: 0.3s;
+
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum {
+    width: 80%;
+    padding: 30px;
+    border: 1px solid black;
+
+}   
+
+.garabond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+}
