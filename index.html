@@ -11,7 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
     <header>
@@ -57,11 +56,13 @@
         
     </section>
     <section class="inizio">
-        <div class="contenitore" data-hover="Ciao Ciao Ciao">1</div>
-        <div class="contenitore">2</div>
-        <div class="contenitore">3</div>
-        <div class="contenitore">4</div>
+        <div class="contenitore" id="Testo1" onmouseover="cambiaTesto()" + onmouseout="ritornaTesto()"></div>
+        <div class="contenitore" id="Testo2" onmouseover="cambiaTesto2()" + onmouseout="ritornaTesto2()"></div>
+        <div class="contenitore" id="Testo3" onmouseover="cambiaTesto3()" + onmouseout="ritornaTesto3()"></div>
+        <div class="contenitore" id="Testo4" onmouseover="cambiaTesto4()" + onmouseout="ritornaTesto4()"></div>
+
     </section>
+
     
     <section class="cv" id="cv">
         <div class="curriculum">
@@ -71,86 +72,88 @@
                 </p>
 
                 <div class="corpo">
-                    <h4 class="work-sans">Bio</h4>
+                    <h2 class="work-sans">Bio</h2>
                     <div class="garabond">Qua scrivo le righe della mia vita</div>
                     
                     <br>
                 
-                    <h4 class="benvenuto">Esperienze lavorative</h4>
+                    <h2 class="benvenuto">Esperienze lavorative</h2>
         
                     <div class="lavoro">
-                        <p class="garabond">
+                        <h3 class="garabond">
                             <b>Pine-Apple</b>
                             Data inizio / fine
 
-                            <p class="benvenuto">
+                            <h3 class="benvenuto">
                                 Ruolo / Tipo contratto
-                            </p>
-                            <p class="benvenuto">
+                            </h3>
+                            <h3 class="benvenuto">
                                 <li>Mansione</li>
                                 <li>Mansione</li>
-                            </p>
-                        </p>
+                            </h3>
+                        </h3>
                     </div>
                     <div class="lavoro">
-                        <p class="garabond">
+                        <h3 class="garabond">
                             <b>Pine-Apple</b>
                             Data inizio / fine
 
-                            <p class="benvenuto">
+                            <h3 class="benvenuto">
                                 Ruolo / Tipo contratto
-                            </p>
-                            <p class="benvenuto">
+                            </h3>
+                            <h3 class="benvenuto">
                                 <li>Mansione</li>
                                 <li>Mansione</li>
-                            </p>
-                        </p>
+                            </h3>
+                        </h3>
                     </div>
                     <div class="lavoro">
-                        <p class="garabond">
+                        <h3 class="garabond">
                             <b>Mix Indian Store</b>
                             Data inizio / fine
 
-                            <p class="benvenuto">
+                            <h3 class="benvenuto">
                                 Ruolo / Tipo contratto
-                            </p>
-                            <p class="benvenuto">
+                            </h3>
+                            <h3 class="benvenuto">
                                 <li>Mansione</li>
                                 <li>Mansione</li>
-                            </p>
-                        </p>
+                            </h3>
+                        </h3>
                     </div>
 
                     <br>
 
-                    <h4 class="benvenuto">Esperienze Lavorative</h4>
+                    <h2 class="garabond">Esperienze Lavorative</h2>
                     <div class="scula">
-                        <p class="garabond">
+                        <h3 class="benvenuto">
                             <b>Nome Scuola</b>
-                            -scuola secondaria di primo / secondo grado
-                        </p>
+                            - scuola secondaria di primo / secondo grado
+                        </h3>
 
-                        <p class="benvenuto">
-                            Anno inizio / Fine
-                        </p>
+                        <h3 class="benvenuto">
+                            <b>Anno inizio</b> / Fine
+                        </h3>
                     </div>
                     <br>
 
-                    <h4 class="garabond">Competenze</h4>
+                    <h2 class="garabond">Competenze</h2>
                     <ul>
+                         <div class="benvenuto">
                         <li>competenze</li>
                         <li>competenze</li>
                         <li>competenze</li>
                         <li>competenze</li>
                     </ul>
+                    </div>
 
-                    <h4 class="garabond">Lingue</h4>
-                    <p class="benvenuto">
+                    <h2 class="garabond">Lingue</h2>
+                    <h3 class="benvenuto">
                         <b>Cinese</b> - Madrelingua <br>
                         <b>Italiano</b> - Madrelingua    <br>
                         <b>Inglese</b> - Livello B3(?) <br>
                         <b>Spagnolo</b> - A2
-                    </p>
+                    </h3>
 
                 </div>
         

@@ -1,3 +1,4 @@
+
 let a = 0; 
 
 function compariMenu() {
@@ -12,3 +13,32 @@ function compariMenu() {
    
 }
 
+function cambiaTesto() {
+    document.getElementById("Testo1").innerText = "dsamdkmsanfmsankmsafk";
+}
+
+function ritornaTesto() {
+     document.getElementById("Testo1").innerText = "";
+}
+
+function cambiaTesto2() {
+    document.getElementById("Testo2").innerText = "dsamdkmsanfmsankmsafk";
+}
+
+function ritornaTesto2() {
+     document.getElementById("Testo2").innerText = "";
+}
+function cambiaTesto3() {
+    document.getElementById("Testo3").innerText = "dsamdkmsanfmsankmsafk";
+}
+
+function ritornaTesto3() {
+     document.getElementById("Testo3").innerText = "";
+}
+function cambiaTesto4() {
+    document.getElementById("Testo4").innerText = "dsamdkmsanfmsankmsafk";
+}
+
+function ritornaTesto4() {
+     document.getElementById("Testo4").innerText = "";
+}
