@@ -14,7 +14,7 @@ function compariMenu() {
 }
 
 function cambiaTesto() {
-    document.getElementById("Testo1").innerText = "dsamdkmsanfmsankmsafk";
+    document.getElementById("Testo1").innerText = "";
 }
 
 function ritornaTesto() {
@@ -22,7 +22,7 @@ function ritornaTesto() {
 }
 
 function cambiaTesto2() {
-    document.getElementById("Testo2").innerText = "dsamdkmsanfmsankmsafk";
+    document.getElementById("Testo2").innerText = "aeae";
 }
 
 function ritornaTesto2() {
