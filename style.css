@@ -198,6 +198,7 @@ a {
 .relazione-seconda {
     display: flex;
     background-color: aquamarine;
+    align-items: center;
 }
 
 .stage {
@@ -209,4 +210,8 @@ a {
 
 .comp   {
     font-size: larger;
+}
+
+.large {
+    font-size: 5vh;
 }
