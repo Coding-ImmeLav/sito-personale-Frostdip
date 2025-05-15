@@ -14,7 +14,7 @@ function compariMenu() {
 }
 
 function cambiaTesto() {
-    document.getElementById("Testo1").innerText = "";
+    document.getElementById("Testo1").innerText = "Le mie passioni sono quelle";
 }
 
 function ritornaTesto() {
