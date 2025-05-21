@@ -14,7 +14,7 @@ function compariMenu() {
 }
 
 function cambiaTesto() {
-    document.getElementById("Testo1").innerText = "La mia passione principale è quella di giocare a videogiochi che richiedono strategia";
+    document.getElementById("Testo1").innerText = "La mia passione principale è quella di giocare a videogiochi\nche richiedono strategia";
 }
 
 function ritornaTesto() {
