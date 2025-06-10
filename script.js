@@ -29,14 +29,14 @@ function ritornaTesto2() {
      document.getElementById("Testo2").innerText = "";
 }
 function cambiaTesto3() {
-    document.getElementById("Testo3").innerText = "Guardare E-Sports";
+    document.getElementById("Testo3").innerText = "Guardare tornei di giochi";
 }
 
 function ritornaTesto3() {
      document.getElementById("Testo3").innerText = "";
 }
 function cambiaTesto4() {
-    document.getElementById("Testo4").innerText = "Imparare lingue diverse";
+    document.getElementById("Testo4").innerText = "Mi piace giocare a scacchi";
 }
 
 function ritornaTesto4() {
